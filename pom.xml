@@ -2,14 +2,14 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>yejingtao.demo.springcloud</groupId>
-  <artifactId>demo-feign-parent</artifactId>
+  <groupId>demo.springcloud</groupId>
+  <artifactId>feign-parent</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
  
    <modules>
-        <module>eureka-register</module>
+        <module>demo-eureka-register</module>
         <module>demo-feign-freeconsumer</module>
         <module>demo-feign-freeservice</module>
    </modules>
