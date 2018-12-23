@@ -16,11 +16,11 @@ public class DemoFeignController {
 	@RequestMapping(value="/test", method=RequestMethod.GET)
 	public String demoServiceTest() {
 		StringBuffer sb = new StringBuffer();
-		sb.append(demoFeignService.helloService("yuanyuan"));
+		sb.append(demoFeignService.helloService("hello"));
 		sb.append("\n");
 		sb.append(demoFeignService.helloService("yjt","xixihaha"));
 		sb.append("\n");
-		sb.append(demoFeignService.helloService(new UserDemo("yejingtao","123456")));
+		sb.append(demoFeignService.helloService(new UserDemo("feign-user","123456")));
 		return sb.toString();
 		
 	}

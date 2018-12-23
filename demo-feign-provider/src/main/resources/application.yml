@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: demo-feign-freeservice
+    name: demo-feign-provider
     
 eureka:
   client:

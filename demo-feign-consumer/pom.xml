@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>demo.springcloud</groupId>
-  <artifactId>demo-feign-freeconsumer</artifactId>
+  <artifactId>demo-feign-comsumer</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>demo-feign-freeconsumer</name>
+  <name>demo-feign-consumer</name>
   <url>http://maven.apache.org</url>
   
   <parent>

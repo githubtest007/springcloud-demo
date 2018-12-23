@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: demo-feign-freeconsumer
+    name: demo-feign-consumer
     
 eureka:
   client:
@@ -14,6 +14,6 @@ feign:
     enabled: true
 
 #Ribbon 超时时间设置
-#ribbon:
-#  ConnectTimeout: 500
-#  ReadTimeout:  3000
+ribbon:
+  ConnectTimeout: 500
+  ReadTimeout:  3000

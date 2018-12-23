@@ -3,11 +3,15 @@ package application;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.cloud.netflix.feign.EnableFeignClients;
 
 @SpringBootApplication
 @EnableEurekaClient
-public class ServiceApplication {
+@EnableFeignClients
+public class DemoFeignConsumerApplication {
+	
 	public static void main(String[] args) {
-		SpringApplication.run(ServiceApplication.class, args);
-	}	
+		SpringApplication.run(DemoFeignConsumerApplication.class, args);
+	}
+
 }
