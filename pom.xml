@@ -7,10 +7,12 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>demo-feign-freeservice</name>
-  <description>Demo project for Spring Boot</description>
-  
  
+   <modules>
+        <module>eureka-register</module>
+        <module>demo-feign-freeconsumer</module>
+        <module>demo-feign-freeservice</module>
+   </modules>
   <properties>
   	<java.version>1.8</java.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
