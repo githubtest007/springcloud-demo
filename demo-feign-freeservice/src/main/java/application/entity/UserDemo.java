@@ -1,4 +1,4 @@
-package com.yejingtao.feignservice.entity;
+package application.entity;
 
 public class UserDemo {
 	

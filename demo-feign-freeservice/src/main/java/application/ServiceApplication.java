@@ -1,4 +1,4 @@
-package com.yejingtao.feignservice;
+package application;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
