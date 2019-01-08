@@ -1,4 +1,4 @@
-package application.controller;
+package application.api.controller;
 
 import java.util.Random;
 
@@ -20,7 +20,7 @@ public class HelloServiceContorller {
 	private Logger logger = LoggerFactory.getLogger(this.getClass());
 	
 	private void sleep(String methodName) {
-		int sleepMinTime = new Random().nextInt(1);
+		int sleepMinTime = new Random().nextInt(300);
 		logger.info("helloService "+methodName+" sleepMinTime: "+sleepMinTime);
 		try {
 			Thread.sleep(sleepMinTime);

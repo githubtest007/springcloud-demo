@@ -16,7 +16,7 @@ public class DemoFeignFallback implements DemoFeignService{
 	public String helloService(String name,String password) {
 		return "head error";
 	}
-	
+
 	@Override
 	public String helloService(UserDemo userDemo) {
 		return "post error";
