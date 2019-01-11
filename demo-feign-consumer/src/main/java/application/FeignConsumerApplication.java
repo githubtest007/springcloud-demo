@@ -20,12 +20,12 @@ public class FeignConsumerApplication {
 
 
 //解决RestTemplate could not be found 问题
-@Bean
-@LoadBalanced
-//使用rest方式以别名方式就行调用依赖ribbon负载均衡器@LoadBalanced
-//@LoadBalanced就能让这个restTemplate在请求时拥有客户端负载均衡能力
-RestTemplate restTemplate(){
-
-	return new RestTemplate();
-}
+//@Bean
+//@LoadBalanced
+////使用rest方式以别名方式就行调用依赖ribbon负载均衡器@LoadBalanced
+////@LoadBalanced就能让这个restTemplate在请求时拥有客户端负载均衡能力
+//RestTemplate restTemplate(){
+//
+//	return new RestTemplate();
+//}
 }

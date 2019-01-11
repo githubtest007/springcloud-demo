@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import application.entity.UserDemo;
 import application.feignService.fallback.DemoFeignFallback;
 
-@FeignClient(name="demo-feign-freeservice",fallback=DemoFeignFallback.class)
+@FeignClient(name="demo-feign-provider",fallback=DemoFeignFallback.class)
 public interface DemoFeignService{
 	
 

@@ -13,7 +13,8 @@ feign:
   hystrix:
     enabled: true
 
+
 #Ribbon 超时时间设置
 ribbon:
   ConnectTimeout: 500
-  ReadTimeout:  3000
+  ReadTimeout:  300
